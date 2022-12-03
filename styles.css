@@ -1,2 +1,39 @@
 
 /* Your CSS Code here. */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+}
+
+.border{ 
+    height: 80vh;
+    width: 1300px;
+    display: grid;
+    grid-template-columns: repeat(3, 500px);
+    border: 1px solid black;
+    padding: 5px;
+    margin-top: 10px;
+}
+.form-check-input{
+    grid-column-start: 1;
+}
+
+.form-check-input{
+    grid-column-start: 1;
+}
+button{
+    grid-column-start: 1;
+    width: 200px;
+    height: 50px;
+    margin: 5px 10px;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    background-color: blue;
+}
